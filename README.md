@@ -46,9 +46,11 @@ Foreign Keys: doctor references doctor(email), history references medical_histor
 
 **Installation and Setup**
 Clone the repository:
+
 git clone https://github.com/akshaya-somireddy/hospital-management.git
 
 **Navigate to the project directory:**
+
 cd hospital-management
 
 **Database Setup:**
@@ -59,5 +61,6 @@ Run the SQL script to create the schema and tables:
 
 psql -U akshaya-somireddy -f hospital_management.sql
 
-Usage
+**Usage**
+
 The database is ready to use for hospital management operations. You can insert data, query records, and manage hospital operations as needed.
