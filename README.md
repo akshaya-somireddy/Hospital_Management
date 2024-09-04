@@ -1,4 +1,4 @@
-**Hospital Management Database Project**
+**Hospital Management Project**
 
 **Project Overview**
 This project implements a hospital management system using PostgreSQL. It covers various aspects of hospital operations, including patient management, doctor scheduling, 
@@ -46,10 +46,10 @@ Foreign Keys: doctor references doctor(email), history references medical_histor
 
 **Installation and Setup**
 Clone the repository:
-git clone https://github.com/akshaya-somireddy/hospital-management-db.git
+git clone https://github.com/akshaya-somireddy/hospital-management.git
 
 **Navigate to the project directory:**
-cd hospital-management-db
+cd hospital-management
 
 **Database Setup:**
 
