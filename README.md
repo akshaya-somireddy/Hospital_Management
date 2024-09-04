@@ -14,16 +14,21 @@ Primary Key: email
 
 medical_history: Contains records of medical history, including conditions, surgeries, and medications.
 
+
 Primary Key: medical_history_id
 
 doctor: Stores doctor details including email, gender, password, and name.
 
+
 Primary Key: email
+
 appointment: Manages appointment details such as date, start time, end time, and status.
+
 
 Primary Key: appointment_id
 
 patient_visits: Records patient visits, including concerns, symptoms, and linked appointment details.
+
 
 Primary Key: patient, appt
 
@@ -31,9 +36,11 @@ Foreign Keys: patient references patient(email), appt references appointment(app
 
 schedule: Manages doctor schedules, including start time, end time, break time, and day.
 
+
 Primary Key: schedule_id, start_time, end_time, break_time, day
 
 patients_history: Links patients with their medical history.
+
 
 Primary Key: history
 
@@ -41,17 +48,20 @@ Foreign Keys: patient references patient(email), history references medical_hist
 
 diagnose: Stores diagnosis information, including appointment ID, doctor, diagnosis, and prescription.
 
+
 Primary Key: appt, doctor
 
 Foreign Keys: appt references appointment(appointment_id), doctor references doctor(email)
 
 doctor_schedules: Associates doctors with their schedules.
 
+
 Primary Key: sched, doctor
 
 Foreign Keys: sched references schedule(schedule_id), doctor references doctor(email)
 
 doctor_view_history: Records instances of doctors viewing a patient's medical history.
+
 
 Primary Key: history, doctor
 
