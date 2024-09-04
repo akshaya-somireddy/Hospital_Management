@@ -1,4 +1,5 @@
 **Hospital Management Database Project**
+
 **Project Overview**
 This project implements a hospital management system using PostgreSQL. It covers various aspects of hospital operations, including patient management, doctor scheduling, 
 appointments, medical history, and diagnoses.
@@ -53,7 +54,9 @@ cd hospital-management-db
 **Database Setup:**
 
 Ensure you have PostgreSQL installed.
+
 Run the SQL script to create the schema and tables:
+
 psql -U akshaya-somireddy -f hospital_management.sql
 
 Usage
